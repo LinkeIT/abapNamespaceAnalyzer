@@ -3,4 +3,5 @@
 - Safe means no possible collisions
 
 # Installing
-- Use SE38 and paste the code
+- Clone from abapGit 
+- Alternatively use SE38 and paste the code from znamespace_analyzer.prog.abap
