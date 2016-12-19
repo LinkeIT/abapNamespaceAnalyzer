@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_PROG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROGDIR>
+    <NAME>ZNAMESPACE_ANALYZER</NAME>
+    <STATE>A</STATE>
+    <SQLX/>
+    <EDTX/>
+    <VARCL>X</VARCL>
+    <DBAPL/>
+    <DBNA/>
+    <CLAS/>
+    <TYPE/>
+    <OCCURS/>
+    <SUBC>1</SUBC>
+    <APPL/>
+    <SECU/>
+    <CNAM/>
+    <CDAT>0000-00-00</CDAT>
+    <UNAM/>
+    <UDAT>0000-00-00</UDAT>
+    <VERN/>
+    <LEVL/>
+    <RSTAT/>
+    <RMAND/>
+    <RLOAD>E</RLOAD>
+    <FIXPT>X</FIXPT>
+    <SSET/>
+    <SDATE>0000-00-00</SDATE>
+    <STIME/>
+    <IDATE>0000-00-00</IDATE>
+    <ITIME/>
+    <LDBNAME/>
+    <UCCHECK>X</UCCHECK>
+   </PROGDIR>
+   <DYNPROS/>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>001</KEY>
+     <ENTRY>Parameters</ENTRY>
+     <LENGTH>20</LENGTH>
+     <SPLIT/>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>M01</KEY>
+     <ENTRY>Unsafe to use namespace</ENTRY>
+     <LENGTH>46</LENGTH>
+     <SPLIT/>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>M02</KEY>
+     <ENTRY>Safe to use namespace</ENTRY>
+     <LENGTH>42</LENGTH>
+     <SPLIT/>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>M03</KEY>
+     <ENTRY>Listing objects which may collision</ENTRY>
+     <LENGTH>70</LENGTH>
+     <SPLIT/>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>M04</KEY>
+     <ENTRY>Do not use wildcard</ENTRY>
+     <LENGTH>29</LENGTH>
+     <SPLIT/>
+    </item>
+    <item>
+     <ID>R</ID>
+     <KEY/>
+     <ENTRY>Namespace Analyzer</ENTRY>
+     <LENGTH>18</LENGTH>
+     <SPLIT/>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_NAMSPC</KEY>
+     <ENTRY>Namespace</ENTRY>
+     <LENGTH>17</LENGTH>
+     <SPLIT/>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_NMSPCC</KEY>
+     <ENTRY>Namespace for class</ENTRY>
+     <LENGTH>27</LENGTH>
+     <SPLIT/>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_NMSPCX</KEY>
+     <ENTRY>Namespace for exception class</ENTRY>
+     <LENGTH>37</LENGTH>
+     <SPLIT/>
+    </item>
+   </TPOOL>
+  </asx:values>
+ </asx:abap>
+</abapGit>
